@@ -1,10 +1,7 @@
 /* Global */
 body {
   font-family: "Roboto", sans-serif;
-}
-
-.zero {
-  margin: -15px;
+  margin: 0 -8px;
 }
 
 .btn {
@@ -127,7 +124,7 @@ nav ul ul li a {
 /* Services */
 .services {
   text-align: center;
-  margin: 80px 0;
+  padding: 30px 0;
 }
 
 .services i {
@@ -140,10 +137,11 @@ nav ul ul li a {
   border-radius: 50%;
 }
 
+/* Portfolio */
 .portfolio {
   text-align: center;
   background: #bdc3c7;
-  padding: 80px 0 0;
+  padding: 15px 0 0;
 }
 
 .portfolio h5, .portfolio p {
@@ -163,29 +161,27 @@ nav ul ul li a {
 }
 
 .portfolio .tile {
-  width: 290px;
-  height: 386px;
   background: #bdc3c7;
   margin: 0 0 30px 0;
 }
 
 .portfolio .tile img {
   display: block;
-  width: 290px;
+  width: 100%;
   height: 290px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .portfolio .tile div {
-  max-width: 290px;
+  max-width: 100%;
   background: #ecf0f1;
 }
 
 /* Footer */
 footer {
   text-align: center;
-  margin: 40px 0 0;
+  padding: 30px 0 0;
 }
 
 footer p {
@@ -213,6 +209,9 @@ footer ul li i {
 }
 
 @media (max-width: 767px) {
+  body {
+    margin: 0 -9px;
+  }
   header {
     height: 100vh;
   }
