@@ -11,7 +11,7 @@ $color-five: #000;
 
 body {
     font-family: $font-one;
-    margin: 0 -8px;
+    margin: 0;
 }
 
 .btn {
@@ -56,7 +56,9 @@ header {
 
 .space {
     justify-content: space-between;
-    padding: 0 10%;
+    padding: 0 5%;
+    margin-left: 0;
+    margin-right: 0;
 
     img {
         display: inline-block;
@@ -223,10 +225,6 @@ footer {
 }
 
 @media (max-width: 767px) {
-
-    body {
-        margin: 0 -9px;
-    }
     
     header {
         height: 100vh;
